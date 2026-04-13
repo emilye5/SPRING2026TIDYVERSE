@@ -112,7 +112,7 @@ Initial Description and Link:
 Revision/Addition Description and Link:
 
 # Emily E
-Initial Description and Link:
+Initial Description and Link: Dplyr, Ggplot2 and Stringr used with movie data from 1970 - 2013. Analyzes whether movies passed or failed the Bechdel Test. Data is from the fivethirtyeight R library. [Vignette](emily_el_mouaquite_tidyverse_create.Rmd)
 
 Revision/Addition Description and Link:
 
