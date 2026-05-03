@@ -152,6 +152,62 @@ Github Raw Link: https://raw.githubusercontent.com/DylanGoldJ/SPRING2026TIDYVERS
 
 Revision/Addition Description and Link:
 
+# Khandker Qaiduzzaman – Extension Analysis
+
+## RPub link:
+https://rpubs.com/nafees19/1428700
+
+## Extension Overview  
+This extension builds on the original tidyverse vignette by performing deeper exploratory analysis of global grocery price data. Using `dplyr` for data aggregation and `ggplot2` for visualization, the analysis focuses on three key perspectives: global price ranking, price stability (volatility), and cross-city cost-of-living differences.
+
+---
+
+## 1. Top 10 Most Expensive Grocery Items Globally  
+
+This analysis identifies the most expensive grocery items worldwide using grouped average price calculations.
+
+The results show that **Beef Round (1 kg)** is the most expensive item with an average price above $17, followed by **Local Cheese** and **Chicken Fillets**, highlighting that animal-based products dominate the higher end of global food pricing. In contrast, staple produce such as bananas and onions remain relatively inexpensive, averaging around $2. This demonstrates a clear and consistent price gap between protein-rich foods and basic produce.
+
+---
+
+## 2. Price Volatility of Grocery Items  
+
+This section measures price instability using the ratio of standard deviation to mean price (volatility index).
+
+The findings show that essential staples such as onions, rice, and tomatoes exhibit the highest volatility, meaning their prices fluctuate significantly across time and regions. On the other hand, fruits such as bananas and oranges show lower volatility, indicating more stable pricing patterns. This highlights that even essential goods can experience unpredictable pricing behavior, and affordability does not always guarantee stability.
+
+---
+
+## 3. Grocery Basket Cost Across Cities  
+
+This analysis compares the average cost of a standardized grocery basket across global cities.
+
+Results indicate that **Vancouver, Toronto, and Hong Kong** are among the most expensive cities, with basket costs exceeding $19 on average. Meanwhile, cities such as **Los Angeles, San Francisco, and Oslo** show relatively lower costs. This variation highlights significant differences in cost of living and food affordability across global urban centers.
+
+---
+
+## Methods & Tools Used  
+
+- `dplyr`: data grouping, summarizing, filtering  
+- `ggplot2`: bar charts, lollipop plots, gradient visualizations  
+- Data transformation using `group_by()` and `summarise()`  
+- Ranking and volatility calculations  
+
+---
+
+## Key Takeaways  
+
+- Meat and dairy products are consistently the most expensive food categories globally  
+- Staple foods show high price volatility despite being low-cost items  
+- Grocery affordability varies significantly across major cities  
+- Cost-of-living differences are strongly reflected in basket-level pricing  
+
+---
+
+## Conclusion  
+
+This extension demonstrates how tidyverse tools can be used to move beyond basic data cleaning into meaningful economic interpretation. By analyzing price levels, volatility, and city-level cost differences, the project reveals important global patterns in food affordability and inflation sensitivity.
+
 # Emily E
 Initial Description and Link: Dplyr, Ggplot2 and Stringr used with movie data from 1970 - 2013. Analyzes whether movies passed or failed the Bechdel Test. Data is from the fivethirtyeight R library. [Vignette](emily_el_mouaquite_tidyverse_create.Rmd)
 
